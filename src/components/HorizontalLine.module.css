@@ -1,0 +1,20 @@
+.horizontalLineWrapper{
+    position: relative;
+    width: 80%;
+    margin: 40px auto;
+}
+
+.horizontalLineWrapper hr{
+    border: 1px solid var(--gray-300);
+    border-top: none;
+}
+
+.horizontalLineWrapper span{
+    position: absolute;
+    top: -9px;
+    left: 32%;
+    background-color: #fff;
+    padding: 0 10px;
+    color: var(--gray-300);
+    font-size: 1.4rem;
+}

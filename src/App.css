@@ -1,11 +1,10 @@
 #root {
   max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
   text-align: center;
 }
 
 .login{
+  width: 100dvw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -15,4 +14,16 @@
 .logo{
   width: 276px;
   height: 32px;
+}
+
+.full-content{
+  width: 100dvw;
+  height: 100dvh;
+  display: flex;
+}
+
+.main-content{
+  width: 84dvw;
+  display: flex;
+  flex-direction: column;
 }

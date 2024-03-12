@@ -5,15 +5,24 @@ export const Login = () => {
 
     const [login, setLogin] = useState(true)
     const [accountCreation, setAccountCreation] = useState(false)
+    const [forgotPassword, setForgotPassword] = useState(false)
 
     const handleLogin = () => {
         setAccountCreation(false)
+        setForgotPassword(false)
         setLogin(true)
     }
 
     const handleAccountCreation = () => {
         setLogin(false)
+        setForgotPassword(false)
         setAccountCreation(true)
+    }
+
+    const handleForgotPassword = () => {
+        setLogin(false)
+        setAccountCreation(false)
+        setForgotPassword(true)
     }
 
     return (
@@ -22,8 +31,11 @@ export const Login = () => {
             <Form 
                 isLogin={login}
                 isAccountCreation={accountCreation}
+                isForgotPassword={forgotPassword}
                 handleLogin={handleLogin}
-                handleAccountCreation={handleAccountCreation}/>
+                handleAccountCreation={handleAccountCreation}
+                handleForgotPassword={handleForgotPassword}
+            />
         </>
     )
 }

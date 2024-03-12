@@ -2,6 +2,7 @@
   font-family: "Inter", sans-serif;  
   font-size: 10px;
 
+  --text-color: #fff;
   --green-color: #299d91;
   --green-hover-color: #1c7269;
   --gray-100: #f3f3f3;

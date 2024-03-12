@@ -7,6 +7,11 @@
     font-size: 1.6rem;
 }
 
+.form h1{
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
 .form label{
     font-weight: 500;
 }
@@ -57,4 +62,36 @@
 
 .keepLogged input[type="checkbox"]:checked{
     outline: none;
+}
+
+.terms{
+    font-size: 1.4rem;
+    color: var(--gray-400);
+    margin-bottom: 10px;
+}
+
+.createAccount,
+.haveAccountWrapper{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 30px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--green-color);
+    text-decoration: none;
+}
+
+.haveAccountWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    color: var(--gray-700);
+    font-weight: 400;
+}
+
+.haveAccountWrapper a{
+    text-decoration: none;
+    color: var(--green-color);
+    font-weight: 700;
 }

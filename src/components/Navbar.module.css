@@ -1,5 +1,5 @@
 .navbar{
-    width: 16vw;
+    width: 16%;
     height: 100dvh;
     padding: 3% 1.5%;
     display: flex;
@@ -12,7 +12,7 @@
 .navbar nav{
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 1em;
     font-size: 1.4rem;
 }
 
@@ -40,19 +40,25 @@
 }
 
 .navbar nav a:last-child{
-    margin-top: 30%;
+    margin-top: 100%;
 }
 
 .profileWrapper{
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: space-between;
     gap: 15px;
     cursor: pointer;
 }
 
+.profileInfo{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
 .profilePicture{
-    width: 30px;
+    width: 4em;
     border-radius: 50%;
 }
 
@@ -61,7 +67,7 @@
 }
 
 .profileNameWrapper h2{
-    font-size: 1.1rem;
+    font-size: 1.4rem;
 }
 
 .profileNameWrapper span{

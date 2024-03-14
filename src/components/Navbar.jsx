@@ -16,10 +16,12 @@ export const Navbar = () => {
             </nav>
             <hr />
             <div className={styles.profileWrapper}>
-                <img src="/profile-picture.jpeg" alt="profile picture" className={styles.profilePicture}/>
-                <div className={styles.profileNameWrapper}>
-                    <h2>Daniel Ribeiro</h2>
-                    <span>View profile</span>
+                <div className={styles.profileInfo}>
+                    <img src="/profile-picture.jpeg" alt="profile picture" className={styles.profilePicture}/>
+                    <div className={styles.profileNameWrapper}>
+                        <h2>Daniel Ribeiro</h2>
+                        <span>View profile</span>
+                    </div>
                 </div>
                 <img src="/options-icon.svg" alt="" className={styles.optionsIcon}/>
             </div>
